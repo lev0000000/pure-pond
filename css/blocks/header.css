@@ -1,0 +1,48 @@
+.header__wrapper{
+    display: grid;
+    grid-template-columns: 378px 1fr 410px;
+    grid-row: 120px;
+    justify-content: space-between;
+    padding: 16px 0 0;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+    gap: 142px;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+}
+
+.header__right{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header__btns{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: transparent;
+}
+
+.header__btn-lang{
+    background-color: transparent;
+    border: none;
+}
+
+.header__btn-memo{
+    background-color: transparent;
+    border: none;
+}
+
+.header__btn-change{
+    width: 165px;
+    padding: 12px 20px;
+    font-size: 13px;
+    line-height: 16px;
+}
