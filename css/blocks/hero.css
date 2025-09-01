@@ -3,6 +3,7 @@
 }
 
 .hero__heading {
+  text-align: center;
   font-family: "Ardeco", "Arial", sans-serif;
   font-size: 64px;
   line-height: 64px;

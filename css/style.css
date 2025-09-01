@@ -11,6 +11,8 @@
 @import "blocks/btn.css";
 @import "blocks/hero.css";
 @import "blocks/apartments.css";
+@import "blocks/hero-secondary.css";
+@import "blocks/apartments-description.css";
 @import "blocks/benefit.css";
 @import "blocks/footer.css";
 @import "blocks/socials.css";

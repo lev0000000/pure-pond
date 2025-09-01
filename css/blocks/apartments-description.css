@@ -1,0 +1,79 @@
+.aprtments-description__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 0 0;
+}
+
+.apartments-description__img{
+    background-image: url("../../images/Rectangle\ 376714432.jpg");
+    width: 36%;
+    height: 480px;
+    border-radius: 180px 180px 0 0;
+    border: 2px solid rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 40px 0 0;
+}
+
+.apartments-description__img-number{
+    font-family: "Ardeco", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.apartments-description__img-text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.apartments-description__info-block{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    gap: 16px;
+}
+
+.apartments-description__heading{
+    font-family: "Ardeco", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.apartments-description__text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.apartments-description__list{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0 0 0 17px;
+    margin: 0 0 16px 0;
+}
+
+.apartments-description__list-item{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+.apartments-description__btn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
