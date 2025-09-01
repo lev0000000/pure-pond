@@ -5,11 +5,7 @@
 }
 
 .apartments-description__img{
-    background-image: url("../../images/Rectangle\ 376714432.jpg");
-    width: 36%;
-    height: 480px;
-    border-radius: 180px 180px 0 0;
-    border: 2px solid rgba(255, 255, 255, 1);
+    background-image: url("../../images/photo1.jpg");
     display: flex;
     flex-direction: column;
     align-items: center;
