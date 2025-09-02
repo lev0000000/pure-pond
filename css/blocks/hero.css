@@ -1,5 +1,5 @@
 .hero {
-  padding: 20px 0 0;
+  padding: 48px 0 0;
 }
 
 .hero__heading {
@@ -9,6 +9,7 @@
   line-height: 64px;
   font-weight: 400;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .hero__image {

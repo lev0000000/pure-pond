@@ -1,9 +1,10 @@
+.advantages{
+
+}
+
 .advantages__wrapper {
-    display: grid;
-    grid-template-columns: 510px 1fr 1fr;
-    grid-template-rows: 140px 140px 480px;
-    gap: 16px;
-    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
 }
 
 .advantages__info-text {
@@ -27,13 +28,12 @@
 }
 
 .advantages__list {
-    grid-row: 3;
     display: flex;
     flex-direction: column;
     padding: 0;
-    align-items: left;
     gap: 36px;
     list-style: none;
+    margin: 0;
 }
 
 .advantages__list-link {
@@ -43,11 +43,3 @@
     text-transform: uppercase;
 }
 
-.advantages__img {
-    grid-column: 3/5;
-    grid-row: -3/-1;
-    width: 360px;
-    height: 480px;
-    background-image: url('../../images/photo2.jpg');
-    margin: 120px 0 0 0;
-}
