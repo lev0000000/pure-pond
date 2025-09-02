@@ -1,4 +1,4 @@
-.header__wrapper{
+.header__wrapper {
     display: grid;
     max-width: 1440px;
     margin: 0 auto;
@@ -6,27 +6,29 @@
     justify-content: space-between;
     padding: 16px 50px 0;
 }
-.header__home-btn{
+
+.header__home-btn {
     display: flex;
     align-items: center;
 }
-.header__info{
+
+.header__info {
     display: flex;
     align-items: center;
-    justify-content: start;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     text-transform: uppercase;
+    padding: 0 0 0 20px;
 }
 
-.header__logo{
+.header__logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header__btns{
+.header__btns {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -34,26 +36,26 @@
     background-color: transparent;
 }
 
-.header__btn-lang{
+.header__btn-lang {
     padding: 0;
     background-color: transparent;
     border: none;
 }
 
-.header__btn-memo{
+.header__btn-memo {
     padding: 0;
     background-color: transparent;
     border: none;
 }
 
-.header__btn-change{
+.header__btn-change {
     width: 165px;
     padding: 12px 20px;
     font-size: 13px;
     line-height: 16px;
 }
 
-.header__contact{
+.header__contact {
     display: flex;
     align-items: center;
     justify-content: end;

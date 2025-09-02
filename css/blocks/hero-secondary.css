@@ -4,12 +4,14 @@
 }
 
 .hero-secondary__heading{
+    display: block;
     text-align: center;
     font-family: "Ardeco", "Arial", sans-serif;
     font-weight: 400;
     font-size: 64px;
     line-height: 60px;
     text-transform: uppercase;
+    margin: 55px 0 24px 0;
 }
 
 .hero-secondary__desc{

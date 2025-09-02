@@ -13,6 +13,10 @@
   background-image: url("../../images/image-apartment.jpg");
 }
 
+.benefit--round-half{
+  border-radius: 180px 180px 0 0;
+}
+
 .benefit__number {
   font-family: "Ardeco", "Arial", sans-serif;
   margin: 0 0 16px;
