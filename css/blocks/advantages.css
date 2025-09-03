@@ -1,17 +1,22 @@
-.advantages{
-
+.advantages {
+    padding: 80px 0;
 }
 
 .advantages__wrapper {
     display: flex;
     flex-direction: column;
+    gap: 80px;
+}
+
+.advantages__info-block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .advantages__info-text {
-    display: block;
-    grid-column: 1/end;
-    grid-row: 2;
     font-family: "Ardeco", "Arial", sans-serif;
+    margin: 0;
     font-weight: 400;
     font-size: 52px;
     line-height: 50px;
@@ -20,14 +25,19 @@
 }
 
 .advantages__info-text--secondary {
-    grid-row: 1;
     font-size: 160px;
     line-height: 140px;
     letter-spacing: -0.02em;
     text-transform: none;
 }
 
-.advantages__list {
+.advantages__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages__block-list {
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -36,10 +46,9 @@
     margin: 0;
 }
 
-.advantages__list-link {
+.advantages__block-list-item {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
 }
-

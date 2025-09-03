@@ -15,4 +15,5 @@
 .hero__image {
   margin: 48px 0 0;
   width: 100%;
+  min-height: 100vh;
 }

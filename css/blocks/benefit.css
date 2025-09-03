@@ -12,14 +12,16 @@
 .benefit--apartment {
   background-image: url("../../images/image-apartment.jpg");
 }
-.benefit--apartment-description{
+
+.benefit--apartment-description {
   background-image: url("../../images/photo1.jpg");
 }
-.benefit--advantages{
+
+.benefit--advantages {
   background-image: url('../../images/photo2.jpg');
 }
 
-.benefit--round-half{
+.benefit--round-half {
   border-radius: 180px 180px 0 0;
   width: 360px;
   height: 480px;
